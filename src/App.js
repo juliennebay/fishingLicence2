@@ -31,11 +31,11 @@ function App() {
   return (
     <div className="App">
       <div className="top-bar">
-        <h2>Ontario hunting and fishing licence issuers: 2020</h2>
-        <h5>
+        <h1>Ontario hunting and fishing licence issuers: 2020</h1>
+        <h3>
           Find a nearby location that sells hunting and fishing licences, tags
           and related products and services.
-        </h5>
+        </h3>
         <div className="search-box">
           <input
             id="name-input"
@@ -52,7 +52,7 @@ function App() {
             <th>City</th>
             <th>Business Name</th>
             <th>Address (click to map)</th>
-            <th>Postal Code</th>
+            <th className="postal-code">Postal Code</th>
             <th>Issuer Type</th>
           </tr>
         </thead>
@@ -73,7 +73,7 @@ function App() {
                   <td>{address._city.content}</td>
                   <td>{address.business_name.content}</td>
                   <td>{address.street_address.content}</td>
-                  <td>{address.postal_code.content}</td>
+                  <td className="postal-code">{address.postal_code.content}</td>
                   <td>{address.issuer_type.content}</td>
                 </tr>
               );
