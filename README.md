@@ -1,13 +1,13 @@
+### Where to view this app
+
+View this app here: https://juliennebay.github.io/fishingLicence2/
+
 ### About this app
 I used React to re-create my previous fishing licence app (https://github.com/juliennebay/fishingLicence), which was created with vanilla JS.
 
 Users can search (by city name, business name, address, postal code or issue type) a nearby location that sells hunting and fishing licences in the province of Ontario, Canada.
 
 This is an improved version of the current app that's available on the Government of Ontario's website, which doesn't show its results unless you fully spell out the city's name (or other search keywords).
-
-### Where to view this app
-
-View this app here: https://juliennebay.github.io/fishingLicence2/
 
 ### Tech Stack
 
