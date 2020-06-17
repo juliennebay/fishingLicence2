@@ -25,9 +25,6 @@ function App() {
     setSearchKeyword(event.target.value);
   };
 
-  console.log(addresses[0]);
-  //console.log(Object.values(addresses));
-
   return (
     <div className="App">
       <div className="top-bar">
@@ -72,7 +69,14 @@ function App() {
                 <tr key={i}>
                   <td>{address._city.content}</td>
                   <td>{address.business_name.content}</td>
-                  <td>{address.street_address.content}</td>
+                  <td>
+                    <a
+                      target="_blank"
+                      href={`https://google.com/maps/search/${address.street_address.content} ${address.postal_code.content}`}
+                    >
+                      {address.street_address.content}
+                    </a>
+                  </td>
                   <td className="postal-code">{address.postal_code.content}</td>
                   <td>{address.issuer_type.content}</td>
                 </tr>
@@ -82,6 +86,8 @@ function App() {
       </table>
     </div>
   );
+
+  //"https://google.com/maps/search/" + address + " " + postalCode
 }
 
 export default App;
