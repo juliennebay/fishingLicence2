@@ -1,3 +1,24 @@
+### About this app
+I used React to re-create my previous fishing licence app (https://github.com/juliennebay/fishingLicence), which was created with vanilla JS.
+
+Users can search (by city name, business name, address, postal code or issue type) a nearby location that sells hunting and fishing licences in the province of Ontario, Canada.
+
+This is an improved version of the current app that's available on the Government of Ontario's website, which doesn't show its results unless you fully spell out the city's name (or other search keywords).
+
+### Where to view this app
+
+View this app here: https://juliennebay.github.io/fishingLicence2/
+
+### Tech Stack
+
+This is a purely front-end app using React. It was bootstrapped using create react app.
+
+### How this is deployed
+
+This app was deployed using the gh-pages package.
+
+***
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
