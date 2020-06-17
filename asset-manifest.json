@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fishingLicence2/static/css/main.6760e7c6.chunk.css",
+    "main.js": "/fishingLicence2/static/js/main.177fb1a9.chunk.js",
+    "main.js.map": "/fishingLicence2/static/js/main.177fb1a9.chunk.js.map",
+    "runtime-main.js": "/fishingLicence2/static/js/runtime-main.77723717.js",
+    "runtime-main.js.map": "/fishingLicence2/static/js/runtime-main.77723717.js.map",
+    "static/js/2.03709875.chunk.js": "/fishingLicence2/static/js/2.03709875.chunk.js",
+    "static/js/2.03709875.chunk.js.map": "/fishingLicence2/static/js/2.03709875.chunk.js.map",
+    "index.html": "/fishingLicence2/index.html",
+    "precache-manifest.17f0b1f1d1a50b573f85fcb4ee86ca43.js": "/fishingLicence2/precache-manifest.17f0b1f1d1a50b573f85fcb4ee86ca43.js",
+    "service-worker.js": "/fishingLicence2/service-worker.js",
+    "static/css/main.6760e7c6.chunk.css.map": "/fishingLicence2/static/css/main.6760e7c6.chunk.css.map",
+    "static/js/2.03709875.chunk.js.LICENSE.txt": "/fishingLicence2/static/js/2.03709875.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77723717.js",
+    "static/js/2.03709875.chunk.js",
+    "static/css/main.6760e7c6.chunk.css",
+    "static/js/main.177fb1a9.chunk.js"
+  ]
+}
